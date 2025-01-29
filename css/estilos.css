@@ -27,15 +27,8 @@ p, li{
     line-height: 1.5;
     letter-spacing: 1px;
 }
-p::after{
-    content: ".";
-    color: rgb(219, 101, 137);
-}
-p::first-letter{
-    text-transform: uppercase;
-    margin-left: 35px;
-    font-size: 28px;
-}
+
+
 a:hover{
     color: rgb(219, 101, 137);
 }
@@ -44,3 +37,4 @@ border: 2px solid rgb(219, 101, 137);
 outline: none;
 border-radius: 7px;
 }
+h2 
