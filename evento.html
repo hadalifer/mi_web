@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mi web eventos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    
+        <h1>Google es genial  </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#acerca-de">acerca de </a></li>
+                <li><a href="evento.html">eventos</a></li>
+                <li><a href="">multimedia</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section>
+    <h2>registrate a nuestro proximo evento</h2>
+    <p> es una película surcoreana de ciencia ficción escrita y dirigida por Kim Tae-yong,
+         y protagonizada por Park Bo-gum, Bae Suzy, Jung Yu-mi, Choi Woo-shik y Tang Wei. Se estrenó en 
+         Corea del Sur el 5 de junio de 2024.</p>
+         <form action="/index.html" method="get">
+            <fieldset>
+              <legend>registrate</legend>
+              <label for="">Nombre
+                <input type="text"name="nombre" id="nombre" required minlength="4">
+              </label>
+              <label for="">Edad
+                <input type="number"name="edad" id="edad"required min="18" max="99">
+              </label>
+              <label for="">Email
+                <input type="email"name="correo" id="correo"required>
+              </label>
+              </fieldset>
+              <fieldset>
+                <legend>Genero</legend>
+                <label >hombre
+                <input type="radio" name="genero" value="hombre" id="hombre" required>
+            </label>
+                <label >mujer
+                <input type="radio" name="genero"  value="mujer" id="mujer"required >
+            </label>
+              </fieldset>
+              <fieldset>
+               <legend>eventos</legend> 
+               <label for="evento">seleccione el evento:</label>
+               <select name="evemto" id="evento">
+                <option value="conferencia_tec">conferencia de tecnologias</option>
+                <option value="webinar_ceo">webinar sobre ceo</option>
+                <option value="taller_cloud">taller sobre cloud</option>
+               </select>
+              </fieldset>
+              <fieldset>
+                <legend>ciudad de evento</legend>
+                <label for="ciudad">Ciudad del evento</label>
+                <input list="ciudades" id="ciudad" name="ciudad" required>
+                <datalist id="ciudades">
+                    <option value="zapopan">
+                    <option value="merida">
+                    <option value="colima">
+                </datalist>
+              </fieldset>
+              <button type="submit">enviar</button>
+         </form>
+
+   </section>  
+   <section>
+    <h2>Mas informacion sobre los eventos</h2>
+    <details open>
+      <summary>Coferencia tecnologica</summary>
+      <p>bjsfhjsj fsekjf heasj feakfheui fehasukfha fshdua fdheau fjdk ghu d d vhhhd </p>
+      <p>bnchjab njcdxskhkea k aj dhauhua wsh duka huhdukx shak dxhk dcfhujk s hdujk k</p>
+    </details>
+    <details>
+      <summary >Coferencia tecnologica 2</summary>
+     <div>
+      <p>bjsfhjsj fsekjf heasj feakfheui fehasukfha fshdua fdheau fjdk ghu d d vhhhd </p>
+      <p>bnchjab njcdxskhkea k aj dhauhua wsh duka huhdukx shak dxhk dcfhujk s hdujk k</p>
+      <ul>
+        <li>bdjhabfcjhaj</li>
+        <li>fchaesjkhdwakjlfvesli</li>
+        <li>fnkejshfukea dnakujhfbnk  bdaj</li>
+        <li> fnejaskfa</li>
+      </ul>
+     </div>
+    </details>
+    <details>
+      <summary>Coferencia tecnologica 3</summary>
+     <div>
+      <p>bjsfhjsj fsekjf heasj feakfheui fehasukfha fshdua fdheau fjdk ghu d d vhhhd </p>
+      <p>bnchjab njcdxskhkea k aj dhauhua wsh duka huhdukx shak dxhk dcfhujk s hdujk k</p>
+      <ul>
+        <li>bdjhabfcjhaj</li>
+        <li>fchaesjkhdwakjlfvesli</li>
+        <li>fnkejshfukea dnakujhfbnk  bdaj</li>
+        <li> fnejaskfa</li>
+      </ul>
+     </div>
+    </details>
+   </section>
+</body>
+</html>
