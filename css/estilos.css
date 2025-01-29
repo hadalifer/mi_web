@@ -1,8 +1,18 @@
-body{
+
+html{
+    background-color: rgb(131, 52, 76);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+body{
+    background-color: rgb(243, 237, 240);
+    width: 600px;
+    margin: 45 auto;
+    padding: 25px;
+    border: 3px solid rgb(65, 9, 26);
+}
 h1{
+    margin: 0%;
     font-size: 60px;
     text-align: center;
     color:rgb(219, 101, 137);
@@ -43,4 +53,37 @@ input[type="text"]:focus{
 border: 2px solid rgb(219, 101, 137);
 outline: none;
 border-radius: 7px;
+}
+img{
+    display: block;/* para alinear la imagen al centro*/
+    margin-inline: auto;
+}
+figure{
+    text-align: center;/*para alinear al centro el texto abajo de la foto*/
+}
+form{
+padding: 20px 0;/*pa darle un margen de separacion del body*/
+}
+form fieldset{
+    margin: 10 px 0;
+    padding: 10px; 
+}
+button{
+    font-size: 17px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(65, 9, 26);
+    border-radius: 6px;
+    border-style: none;
+    color: aliceblue;
+    margin-top: 15px;
+}
+button:hover{ /* lo que va a pasar cuando se ponga el cursor arriba */
+    background-color: rgb(131, 52, 76);
+    cursor: pointer;/* para que el cursor pase a puntero cuando ponemos el mouse arriba */
+}
+iframe{
+ width: 100%;   
+ aspect-ratio:16/9 /* esto es para que no aparezca el borde negro y que el alto se ajuste correctamente al ancho */;
+ height: auto;
 }
